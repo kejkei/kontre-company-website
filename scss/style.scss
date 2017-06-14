@@ -1,0 +1,41 @@
+$main-dark-blue: #132039;
+$main-blue: #75D1C5;
+$main-gray: #CDE3EE;
+$main-white: #FEFBFB;
+$main-font: 'Raleway';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+.row {
+    &::after, &::before {
+        display: table;
+        content: '';
+        clear: both;
+    }
+}
+
+//grid
+
+$columnsCount: 12;
+@for $i from 1 through $columnsCount {
+  .col-#{$i} {
+    width: (100%/$columnsCount)*$i;
+  }
+}
+
+[class*='col-'] {
+    float: left;
+    min-height: 30vh;
+    @media (max-width:450px) {
+        float: none;
+        width: 100%;
+    }
+}
