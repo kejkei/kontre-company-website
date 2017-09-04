@@ -2,7 +2,7 @@ $main-dark-blue: #132039;
 $main-blue: #75D1C5;
 $main-gray: #CDE3EE;
 $main-white: #FEFBFB;
-$main-font: 'Raleway';
+$font: "Raleway", sans-serif;
 
 * {
     box-sizing: border-box;
@@ -39,3 +39,24 @@ $columnsCount: 12;
         width: 100%;
     }
 }
+html {
+    font-family: $font;
+}
+img {
+    width: 20vh;
+}
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space {
+    height: 0vh;
+}
+// header {
+//     background-color: #CDE3EE;
+// }
+a {
+    text-decoration: none;
+}
+
