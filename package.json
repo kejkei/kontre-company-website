@@ -1,0 +1,25 @@
+{
+  "name": "kontre-company-website",
+  "version": "0.0.1",
+  "description": "kontre",
+  "main": "package.json",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kejkei/kontre-company-website.git"
+  },
+  "author": "kamila.treszczotko@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kejkei/kontre-company-website/issues"
+  },
+  "homepage": "https://github.com/kejkei/kontre-company-website#readme"
+}
